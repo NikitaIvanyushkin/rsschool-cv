@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(to top left, powderblue, pink);
+}
+
+.root {
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1024px;
+    min-width: 960px;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+}
+
+.headerContent {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.headerContent h1 {
+    transition: color 1s ease-in-out;
+}
+
+.headerContent h1:hover {
+    color: whitesmoke;
+}
+
+.image {
+    max-width: 250px;
+    border-radius: 50%;
+    border-collapse: collapse;
+    transition: border 0.5s ease-in-out;
+}
+
+.image:hover {
+    border: solid 10px whitesmoke;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+}
+ 
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.wishesContent {
+    display: flex;
+    flex-direction: column;
+}
